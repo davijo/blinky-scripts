@@ -1,13 +1,19 @@
 """
-HSLtracker.py (c) Jonne Davidsson
+HSLtracker.py
+@author Jonne Davidsson
 Tracks and displays Helsinki Public Transportation information
-based on Points of Interest
-Outputs states on a BlinkyTape
+based on Points of Interest and Bounding Box
+Visualizes states on a BlinkyTape
+
 RED - alert point - The moment you need to move out to catch the Transportation
-YELLOW (blink) - Transport stationary at alert point
+YELLOW - Transport stationary at alert point
 MAGENTA (blink) - Number of tracked targets
 CYAN (blink) - Transport in PassBy POI a.k.a You didn't make it
+
 License: MIT
+
+HSL API:
+https://dl.dropboxusercontent.com/u/20567085/Mattersoft%20Live%21%20interface%20description%20v1_6.pdf
 
 Requirements:
 
