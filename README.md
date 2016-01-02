@@ -2,13 +2,13 @@
 # HSLtracker
 # Description
 Tracks Helsinki Public Transportation targets LIVE
-based on Bounding Box and trackable targets.
-User-defined POIs for each target line.
-Visualizes statuses on a BlinkyTape.
+based on Bounding Box and trackable targets.<br />
+User-defined POIs for each target line.<br />
+Visualizes statuses on a BlinkyTape.<br />
 # Installation
-pip install pyserial
-pip install ipython
-pip install geopy
+pip install pyserial<br />
+pip install ipython<br />
+pip install geopy<br />
 # Setup
 Change confs in HSLtracker.py header
 # Run
